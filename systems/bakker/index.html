@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Copyable dark editorial portfolio design reference.">
+  <title>Bakker design system — Website design systems</title>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="components.css">
+  <script src="demo.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bk-shell">
+    <header class="bk-header">
+      <a class="bk-back" href="../../" aria-label="All design systems">← <span>Design systems</span></a>
+      <span class="bk-year">© 2026</span>
+      <nav class="bk-tabs" role="tablist" aria-label="Portfolio sections">
+        <button class="bk-tab" id="tab-work" type="button" role="tab" aria-controls="panel-work" aria-selected="true" tabindex="0" data-tab="work">Work</button>
+        <button class="bk-tab" id="tab-about" type="button" role="tab" aria-controls="panel-about" aria-selected="false" tabindex="-1" data-tab="about">About</button>
+        <button class="bk-tab" id="tab-contact" type="button" role="tab" aria-controls="panel-contact" aria-selected="false" tabindex="-1" data-tab="contact">Contact</button>
+      </nav>
+    </header>
+
+    <div class="bk-heading-row">
+      <span class="bk-monogram" aria-label="Studio Index">SI</span>
+      <h1 id="section-title">Work</h1>
+    </div>
+
+    <main id="main" class="bk-main">
+      <div class="bk-tab-panels">
+        <section class="bk-panel" id="panel-work" role="tabpanel" aria-labelledby="tab-work" data-panel="work">
+          <div class="bk-work-grid">
+            <div class="bk-preview" aria-label="Selected project preview">
+              <div class="bk-preview-art" id="project-art" data-art="01" aria-hidden="true"><span class="bk-art-orbit"></span><span class="bk-art-core"></span></div>
+              <div class="bk-preview-caption"><span>Selected project</span><strong id="project-preview-title">Atlas</strong></div>
+            </div>
+            <div class="bk-project-list" aria-label="Sample projects">
+              <button class="bk-project" type="button" data-project="Atlas" data-art="01" aria-pressed="true"><span>Atlas</span><span aria-hidden="true">↗</span></button>
+              <button class="bk-project" type="button" data-project="Field Notes" data-art="02" aria-pressed="false"><span>Field Notes</span><span aria-hidden="true">↗</span></button>
+              <button class="bk-project" type="button" data-project="Common Ground" data-art="03" aria-pressed="false"><span>Common Ground</span><span aria-hidden="true">↗</span></button>
+              <button class="bk-project" type="button" data-project="Signal" data-art="04" aria-pressed="false"><span>Signal</span><span aria-hidden="true">↗</span></button>
+              <div class="bk-project-note">Select a project to change the preview.</div>
+            </div>
+            <aside class="bk-links" aria-label="Reference details">
+              <a href="README.md">Design notes ↗</a>
+              <a href="tokens.css">Tokens ↗</a>
+              <a href="components.css">Components ↗</a>
+            </aside>
+          </div>
+        </section>
+
+        <section class="bk-panel bk-text-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" data-panel="about" hidden>
+          <div class="bk-text-intro"><span class="bk-index">01 / About</span><h2>Considered work,<br>clear structure.</h2></div>
+          <div class="bk-text-copy"><p>This example shows the portfolio system's broad margins, crisp rules, modest labels, and unusually large display type.</p><p>Use it for work that needs breathing room and a direct, editorial voice.</p></div>
+        </section>
+
+        <section class="bk-panel bk-text-panel" id="panel-contact" role="tabpanel" aria-labelledby="tab-contact" data-panel="contact" hidden>
+          <div class="bk-text-intro"><span class="bk-index">02 / Contact</span><h2>Start a<br>conversation.</h2></div>
+          <div class="bk-text-copy"><p>This is a sample contact state. Replace these details with your own before publishing a new site.</p><p class="bk-contact-rule">Your name<br>Your email<br>Your location</p></div>
+        </section>
+      </div>
+      <div class="bk-signature" aria-hidden="true">Studio Index</div>
+    </main>
+    <footer class="bk-footer"><span>Bakker visual reference</span><span>Dark / Editorial / Framed</span></footer>
+  </div>
+</body>
+</html>

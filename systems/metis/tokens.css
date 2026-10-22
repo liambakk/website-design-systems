@@ -1,0 +1,15 @@
+:root {
+  color-scheme: light;
+  --mt-canvas: #fafafa;
+  --mt-ink: #242220;
+  --mt-text: #555351;
+  --mt-muted: #777573;
+  --mt-rule: #e2e0de;
+  --mt-warm-panel: #f4f2f0;
+  --mt-charcoal: #23272b;
+  --mt-content-width: 1120px;
+  --mt-page-gutter: clamp(24px, 5vw, 64px);
+  --mt-section-space: clamp(52px, 7vw, 100px);
+  --mt-body-font: Helvetica, Arial, sans-serif;
+  --mt-ease: cubic-bezier(.2, .7, .2, 1);
+}

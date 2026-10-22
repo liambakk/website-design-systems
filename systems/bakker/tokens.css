@@ -1,0 +1,15 @@
+:root {
+  color-scheme: dark;
+  --bk-canvas: #1a1a1a;
+  --bk-ink: #ffffff;
+  --bk-muted: #888888;
+  --bk-rule: #ffffff;
+  --bk-panel: #252525;
+  --bk-inverse-ink: #161616;
+  --bk-page-gutter: clamp(18px, 2.35vw, 30px);
+  --bk-header-height: 80px;
+  --bk-list-width: 32%;
+  --bk-links-width: 20%;
+  --bk-body-font: Inter, Helvetica, Arial, sans-serif;
+  --bk-ease: cubic-bezier(.2, .7, .2, 1);
+}
