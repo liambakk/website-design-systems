@@ -16,4 +16,6 @@ The two systems should stay independent. Shared CSS would blur their typography 
 
 The Bakker example keeps the structure and interaction but replaces portfolio names and project images with sample material. The Metis example keeps the visual grammar but uses new CSS generated artwork and generic copy. It does not package the private production app, business claims, forms or data.
 
+The full public Bakker website source is separately preserved under [`reference/bakker-website/`](reference/bakker-website/), so a recipient can inspect or reuse the actual implementation and content as well as the simplified design example.
+
 Source snapshots reviewed: [`liambakk/portfolio`](https://github.com/liambakk/portfolio) at `a2b513b`; private `metisworld/metis-website` at `4bd1a57`. Public views: [Bakker](https://bakker-website.vercel.app/) and [Metis](https://metis.inc/).
